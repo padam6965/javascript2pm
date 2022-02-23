@@ -1,0 +1,13 @@
+Regular Expression
+
+regular expression always comes in between these two symbols /.../
+^(cap) -> it always check form the begining 
+$ - > it always check form the end
+[a-z] -> it only check lowercase alphabets form a to z
+[A-Z] -> it only checks upercase alhabets from A to Z
+[a-zA-Z]/[A-Za-z] -> it checks both lowercase and uppercase alphabets
+[0-9] -> it checks all the numeric value
+
+for special characters use \
+example:
+\@, \s(space),\-,\_\,#,\. etc

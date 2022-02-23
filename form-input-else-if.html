@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" id="first" placeholder="Enter the first number">
+    <br><br>
+    <input type="number" id="second" placeholder="Enter the second number">
+    <br><br>
+    <button onclick="compare()">click to see the result</button><br>
+    <p id="result"></p>
+
+
+    <script>
+        const compare = () => {
+            const a = document.getElementById('first').value
+            const b = document.getElementById('second').value
+            if (a > b) {
+               document.getElementById('result').innerHTML='first number is greater than second number'
+            }
+            else if (a < b) {
+                document.getElementById('result').innerHTML='first number is less than second number'
+            }
+            else {
+                document.getElementById('result').innerHTML='first number second numbers are equal'
+            }
+
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
